@@ -12,5 +12,5 @@ void loop() {
   // Reading potentiometer value
   potValue = analogRead(potPin);
   Serial.println(potValue);
-  delay(500);
+  delay(100);
 }
