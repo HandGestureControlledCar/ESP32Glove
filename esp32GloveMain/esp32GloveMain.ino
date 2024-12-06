@@ -136,7 +136,7 @@ void loop() {
 
   sendCommandToCar(direction, speed, horn);
 
-  delay(1000);
+  delay(200);
 }
 
 void sendCommandToCar(String direction, String speed, String horn) {
